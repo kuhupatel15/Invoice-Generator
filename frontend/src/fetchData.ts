@@ -1,4 +1,3 @@
-import axios from "axios";
 import baseUrl from '../utils/baseUrl'
 import { Product } from "./pages/AddProducts";
 interface LoginParams {

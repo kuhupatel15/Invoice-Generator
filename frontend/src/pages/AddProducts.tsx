@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import Input from '../components/Input'
 import { Link } from 'react-router-dom'
 import { Button, Button2 } from '../components/Button'
@@ -21,9 +21,7 @@ const AddProducts = () => {
     product_name: "", product_qty: 0, product_price: 0, total_amount: 0
   })
   const [productList, setproductList] = useState<Product[]>([]);
-  let totalCharge = 0;
-  let totalAmount = 0;
-  let g = 0;
+  
 
   const add =  () => {
     let ta = product.product_price * product.product_qty;

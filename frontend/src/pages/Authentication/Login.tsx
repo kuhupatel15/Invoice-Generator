@@ -1,10 +1,10 @@
-import React, { useState } from 'react'
+import  { useState } from 'react'
 import { Button3 } from '../../components/Button'
 import { Link } from 'react-router-dom'
 import { Button2 } from '../../components/Button'
 import Input from '../../components/Input'
 import { LogIn } from '../../fetchData'
-import { useDispatch, UseDispatch } from 'react-redux'
+import { useDispatch } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
 import {login} from '../../../reducers/userSlice'
 

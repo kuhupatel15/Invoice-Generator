@@ -11,10 +11,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path='/signup' element={<SignUp />} />
-        {/* <ProtectedRoute> */}
 
           <Route path='/addproduct' element={<Protected children={<AddProducts/>} />} />
-        {/* </ProtectedRoute> */}
 
       </Routes>
     </div>
