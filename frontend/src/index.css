@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.spotlight {
+    background: radial-gradient(#c5ec7877, transparent, transparent);
+    width: 750px;
+    height: 750px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -50%;
+    left: -28%;
+    z-index: 9;
+}
+
+.spotlight2 {
+    background: radial-gradient(rgba(0, 0, 139, 0.523), transparent, transparent);
+    width: 750px;
+    height: 750px;
+    border-radius: 50%;
+    position: absolute;
+    top: -31%;
+    right: -33%;
+    z-index: 1;
+}
+.spotlight3 {
+    background: radial-gradient(rgba(0, 0, 139, 0.523), transparent, transparent);
+    width: 750px;
+    height: 750px;
+    border-radius: 50%;
+    position: absolute;
+    top: -60%;
+    right: 22%;
+    z-index: 1;
+    opacity: 0.8;
+}
+

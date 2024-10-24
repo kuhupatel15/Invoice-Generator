@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.lev_route = void 0;
+const { Router } = require('express');
+exports.lev_route = Router();
+const middleware_1 = require("../middleware");
+const authentication_1 = require("../controllers/authentication");
+const product_1 = require("../controllers/product");
+exports.lev_route.route('/login').post(authentication_1.Login);
+exports.lev_route.route('/register').post(authentication_1.SignUp);
+exports.lev_route.route('/addproducts').post(middleware_1.isAuthenticated, product_1.AddProduct);
