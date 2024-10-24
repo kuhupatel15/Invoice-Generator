@@ -27,11 +27,11 @@ const SignUp = () => {
         <div className='text-white bg-neutral-950 min-w-screen min-h-screen relative overflow-hidden'>
             <div className='spotlight2 z-10'></div>
             <div className='bg-neutral-800 py-2 px-4 w-full flex justify-between items-center sticky z-50'>
-                <img src="../../../public/logo.png" alt="" className='w-25 h-10' />
+                <img src="/public/logo.png" alt="" className='w-25 h-10' />
                 <Link to='/'><Button title='Login' /></Link>
             </div>
             <div className='w-5/6 h-4/5 flex justify-around  mx-auto mt-6 z-50'>
-                    <img src="../../../public/levitation.png" alt="" className='w-80 z-50 h-full hidden rounded-2xl object-contain md:block' />
+                    <img src="/public/levitation.png" alt="" className='w-80 z-50 h-full hidden rounded-2xl object-contain md:block' />
                 <div >
                     <h1 className='text-xl font-bold md:text-3xl'>Sign Up to begin journey</h1>
                     <p className='text-xs md:text-sm text-neutral-500 mt-2'>This is basic signup page which is used for levitation assignment purpose. </p>
